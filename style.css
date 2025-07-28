@@ -4,7 +4,7 @@ body {
     margin: auto;
     padding: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    max-width: 800px;
+    max-width: 630px;
     width: calc(100% - 30px);
 }
 
