@@ -1,0 +1,110 @@
+body {
+    background: white;
+    color: black;
+    margin: auto;
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 630px;
+    width: calc(100% - 30px);
+}
+
+::-webkit-scrollbar { display: none;}
+
+p {
+	margin: 0.6rem 0 1.0rem 0;
+	text-align: justify;
+	word-wrap: break-word;
+	font-size: 1.0rem;
+	line-height: 1.4;
+	word-spacing: 1.76px;
+}
+
+li  p {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 1.0rem 0 0.6rem 0;
+}
+
+h1 {
+	font-size: 1.4rem;
+}
+
+h2 {
+	font-size: 1.2rem;
+}
+
+h3 {
+	font-size: 1.1rem;
+}
+
+h4 {
+	font-size: 1.0rem;
+}
+
+h5 {
+	font-size: 0.9rem;
+}
+
+h6 {
+	font-size: 0.8rem;
+}
+
+small {
+	display: block;
+	margin-top: 0.4rem;
+	margin-bottom: 0.4rem;
+}
+
+a {
+	color: black;
+}
+
+a::visited {
+	color: black;
+}
+
+img, svg {
+	display: block;
+	margin: 1.3rem auto 1.3rem auto;
+	max-width: calc(100% - 30px);
+}
+
+figure {
+	width: calc(100% - 30px);
+}
+
+figure {
+	margin: 0px;
+	width: 100%;
+}
+
+.caption {
+	width: 100%;
+	border-top: 1px solid black;
+	margin: 0 0 0.9rem 0;
+	padding-top: 5px;
+	text-align: left;
+	text-align: justify;
+	word-wrap: break-word;
+}
+
+pre {
+	margin: 0 auto 1rem auto;
+	width: calc(100% - 30px);
+}
+
+.code {
+	font-family: 'Courier Prime', monospace;
+	font-size: 0.8rem;
+	overflow-y: auto;
+}
+
+.math {
+	width: 100%;
+	text-align: center;
+	word-spacing: 3px;
+	font-family: 'STIX Two Text', serif;
+	overflow-y: auto;
+}
